@@ -1,0 +1,9 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/org/tensorflow/tensorflow-lite-mediapipe/2.6.0
+   - cp maven-metadata.xml ~/.m2/repository/org/tensorflow/tensorflow-lite-mediapipe
+   - cp tensorflow-lite-mediapipe-2.6.0.aar ~/.m2/repository/org/tensorflow/tensorflow-lite-mediapipe/2.6.0/
+   - cp tensorflow-lite-mediapipe-2.6.0.pom ~/.m2/repository/org/tensorflow/tensorflow-lite-mediapipe/2.6.0/
